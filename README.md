@@ -40,12 +40,20 @@
     "web-vitals": "^2.1.0"
   },
   ```
-  
- ## Steps to Run in Local System
+   
+ ### Docker-Hub Repo
+ 
+ Link - https://hub.docker.com/r/basudevbharatbhushan/plugg-customer-facing-css-v1
+ 
+ ```
+ docker pull basudevbharatbhushan/plugg-customer-facing-css-v1
+ ```
+ 
+ ### Steps to run in local system
  
  - Step 1: Clone the Repo into your Local System
  ```
- git clone https://github.com/admin-plugg/plugg-customer-facing-v1
+ git clone https://github.com/admin-plugg/plugg-customer-facing-v1.git
  ```
  - Step 2: Install the dependencies
  ```
