@@ -66,6 +66,8 @@
  yarn start
  ```
 
+#### Lighthouse Report 
+Link - https://drive.google.com/file/d/1Mb4sxVqovz_SMuGW8fnIVGQ04b2EuqQF/view?usp=sharing
 
 ### Screenshots
 ![pluggffcsshome](https://user-images.githubusercontent.com/120786880/212467298-7a17a9dd-517b-42bd-a52c-de2f4bc316af.png)
