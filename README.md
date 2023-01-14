@@ -1,4 +1,4 @@
-# Customer Facing App
+# Customer Facing App - V1
 ## Tech Stack
 1. Node JS - V18+
 2. NPM - 9+
