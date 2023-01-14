@@ -41,13 +41,6 @@
   },
   ```
    
- ### Docker-Hub Repo
- 
- Link - https://hub.docker.com/r/basudevbharatbhushan/plugg-customer-facing-css-v1
- 
- ```
- docker pull basudevbharatbhushan/plugg-customer-facing-css-v1
- ```
  
  ### Steps to run in local system
  
