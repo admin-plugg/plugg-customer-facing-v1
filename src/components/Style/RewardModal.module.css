@@ -1,0 +1,120 @@
+/* .modalBackground {
+  width: 0;
+  height: 0;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  /* margin-left: 1000%; */
+  position: fixed;
+  left: 40%;
+  top: 10%;
+}
+
+.modalContainer .modaltitle {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .modalbody {
+  flex: 50%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .modalfooter {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .modalfooter button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: rgb(202, 90, 112);
+}
+
+.redeemButton {
+  display: block;
+  width: 100%;
+  height: 38px;
+  border-radius: 5px;
+  border: 5px;
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(182, 182, 190, 0.656);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.rewaredTitles {
+  font-size: 25px;
+  color: rgb(86, 82, 82);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2%;
+  font-weight: bolder;
+}
+
+:disabled {
+  background-color: rgb(236, 234, 234);
+  color: rgb(197, 197, 197);
+}
+
+.coupnDetail {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.coupunCode {
+  border: 2px dotted #bbb;
+
+  margin-bottom: 1px;
+  border-radius: 7px;
+  color: #676767;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

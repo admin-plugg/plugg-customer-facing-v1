@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
+import ViewNFT from "./pages/ViewNFT";
+import Activity from "./pages/Activity";
+import SideNavBar from "./SideNavBar/SideNavBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" element={<ViewNFT />} />
+          <Route path="/activity" element={<Activity />} />
+        </Switch>
+      </BrowserRouter>
+    </>
   );
 }
 
