@@ -44,11 +44,11 @@ const RewardModal = ({
 
   return (
     <div
-      class={styles.modalBackground}
+      className={styles.modalBackground}
       style={{ position: "fixed", zIndex: "2" }}
     >
-      <div class={styles.modalContainer}>
-        <div class={styles.titleCloseBtn}>
+      <div className={styles.modalContainer}>
+        <div className={styles.titleCloseBtn}>
           <button
             onClick={() => {
               setOpenModal(false);
@@ -57,15 +57,15 @@ const RewardModal = ({
             X
           </button>
         </div>
-        <div class={styles.modaltitle}>
+        <div className={styles.modaltitle}>
           <h1 style={{ fontSize: "40px", marginBottom: "0", marginTop: "1%" }}>
             Reward Details
           </h1>
         </div>
         <hr style={{ width: "100%" }} />
-        <div class={styles.modalbody}>
+        <div className={styles.modalbody}>
           <div>
-            <p class={styles.rewaredTitles}>
+            <p className={styles.rewaredTitles}>
               {" "}
               <b>{Discount}</b>{" "}
             </p>
@@ -74,19 +74,19 @@ const RewardModal = ({
                 onClick={() => {
                   setDiscountModalOpen(true);
                 }}
-                class={styles.redeemButton}
+                className={styles.redeemButton}
               >
                 Redeem Now
               </button>
             ) : (
-              <button class={styles.redeemButton} disabled>
+              <button className={styles.redeemButton} disabled>
                 Redeem Now
               </button>
             )}
             {discountsModalForm()}
           </div>
           <div>
-            <p class={styles.rewaredTitles}>
+            <p className={styles.rewaredTitles}>
               <b> {Offer}</b>
             </p>
             {ActiveRewardNo > 1 ? (
@@ -94,12 +94,12 @@ const RewardModal = ({
                 onClick={() => {
                   setOfferModalOpen(true);
                 }}
-                class={styles.redeemButton}
+                className={styles.redeemButton}
               >
                 Redeem Now
               </button>
             ) : (
-              <button class={styles.redeemButton} disabled>
+              <button className={styles.redeemButton} disabled>
                 Redeem Now
               </button>
             )}
@@ -109,7 +109,7 @@ const RewardModal = ({
             {offerModalForm()}
           </div>
         </div>
-        <div class={styles.modalfooter}>
+        <div className={styles.modalfooter}>
           <button
             onClick={() => {
               setOpenModal(false);

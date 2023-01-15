@@ -6,11 +6,11 @@ import { faCopy } from "@fortawesome/free-regular-svg-icons";
 const DiscountModal = ({ setDiscountModalOpen, DiscountCoupn }) => {
   return (
     <div
-      class={styles.modalBackground}
+      className={styles.modalBackground}
       style={{ position: "fixed", zIndex: "2" }}
     >
-      <div class={styles.modalContainer}>
-        <div class={styles.titleCloseBtn}>
+      <div className={styles.modalContainer}>
+        <div className={styles.titleCloseBtn}>
           <button
             onClick={() => {
               setDiscountModalOpen(false);
@@ -19,15 +19,17 @@ const DiscountModal = ({ setDiscountModalOpen, DiscountCoupn }) => {
             X
           </button>
         </div>
-        <div class={styles.modaltitle}>
+        <div className={styles.modaltitle}>
           <h1>Discount Details</h1>
         </div>
         <hr style={{ width: "100%" }} />
-        <div class={styles.modalbody}>
+        <div className={styles.modalbody}>
           <div>
-            <h5 class={styles.coupnDetail}>FLAT {DiscountCoupn}% OFF !!! </h5>
+            <h5 className={styles.coupnDetail}>
+              FLAT {DiscountCoupn}% OFF !!!{" "}
+            </h5>
             <b>
-              <p class={styles.coupunCode}>
+              <p className={styles.coupunCode}>
                 LOPLUGG{DiscountCoupn}
                 <span>
                   <FontAwesomeIcon
@@ -48,7 +50,7 @@ const DiscountModal = ({ setDiscountModalOpen, DiscountCoupn }) => {
             </i>
           </div>
         </div>
-        <div class={styles.modalfooter}>
+        <div className={styles.modalfooter}>
           <button
             onClick={() => {
               setDiscountModalOpen(false);

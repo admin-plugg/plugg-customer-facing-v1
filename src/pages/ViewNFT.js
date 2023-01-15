@@ -10,7 +10,7 @@ const ViewNFT = () => {
   return (
     <div>
       <SideNavBar>
-        <div class={styles.row}>
+        <div className={styles.row}>
           <NFTCard
             NftImage={SilverNFT}
             NftTitle={"Welcome"}
