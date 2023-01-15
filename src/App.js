@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes as Switch, Route } from "react-router-dom";
 import ViewNFT from "./pages/ViewNFT";
